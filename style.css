@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
 :root {
   --logo-color: #6070ff;
@@ -6,7 +6,7 @@
   --h1-color: #172b4d;
   --span-color: #7f8cff;
   --paragraph-color: #344563;
-  --font-family: 'Poppins', sans-serif;
+  --font-family: "Poppins", sans-serif;
 }
 
 * {
@@ -20,7 +20,7 @@ body {
   font-family: var(--font-family);
 }
 
-/*Header Section*/
+/* Header Section */
 
 .flex-container {
   display: flex;
@@ -31,17 +31,17 @@ body {
   color: var(--logo-color);
 }
 
-/*text logo*/
+/* text logo */
 
 .logo {
   color: var(--logo-color);
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 20px;
   font-weight: 700;
 }
 
-/*Menu Icon*/
+/* Menu Icon */
 
 .ion-icon {
   padding: 8px;
@@ -50,13 +50,13 @@ body {
   color: var(--menu-icon-color);
 }
 
-/*Hero section starts here*/
+/* Hero section starts here */
 .hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  background-image: url('images/background/bg_image.svg');
+  background-image: url("images/background/bg_image.svg");
   background-repeat: no-repeat;
 }
 
@@ -98,4 +98,4 @@ li {
   cursor: pointer;
 }
 
-/*hero section ends*/
+/* hero section ends */
