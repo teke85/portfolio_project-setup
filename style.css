@@ -304,12 +304,6 @@ li {
   margin: 10px;
 }
 
-hr {
-  width: 80%;
-  margin: auto;
-  color: #e3e5e9;
-}
-
 .skills-sec {
   display: flex;
   align-items: center;
@@ -336,6 +330,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .chevron-1 {
   position: relative;
   left: 60%;
