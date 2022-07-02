@@ -36,7 +36,7 @@ To get a local copy up and running follow these simple example steps.
   - Remember to switch to the new branch :exclamation:
 - git clone your repo into your local repository
 - Add a .gitignore file.
-- Update the README.MD file in [this template](https://github.com/microverseinc/readme-template) and commit changes
+- Update the README.MD file in [this template](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1) and commit changes
 - Remember to _customise_ the template to your project :exclamation:
 - Setup Linters by running following commands in your terminal:
   - npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x (Install the StyleHint linters)
@@ -60,7 +60,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Unfortunately this is a **Solo** Project and contributions are not required.
 
 ## Show your support
 
@@ -68,8 +68,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [Online resource](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-- [Youtube Video](https://www.youtube.com/watch?v=CFgeJq4l1YM&list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid&index=13)
 - Thanks to everyone who will dedicate time to check this code and suggest any changes to improve the project.
 
 ## 📝 License
