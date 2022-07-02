@@ -1,24 +1,6 @@
 {
-  "name": "portfolio_project-setup",
-  "version": "1.0.0",
-  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/teke85/portfolio_project-setup.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/teke85/portfolio_project-setup/issues"
-  },
-  "homepage": "https://github.com/teke85/portfolio_project-setup#readme",
   "devDependencies": {
-    "hint": "^2.0.0",
+    "hint": "^7.0.1",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
