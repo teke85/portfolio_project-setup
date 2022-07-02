@@ -2,7 +2,7 @@
 
 # Project Name
 
-> **Milestone #1 Portfolio Project!**
+> **Milestone #2 Portfolio Project!**
 
 # Project Requirements
 

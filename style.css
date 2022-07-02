@@ -252,7 +252,7 @@ li {
 
 /* languages section */
 .skill-sec {
-  height: 130vh;
+  height: 105vh;
 }
 
 .skill-container {
@@ -315,14 +315,7 @@ hr {
   align-items: center;
   justify-content: space-around;
   height: 100vh;
-}
-
-.skill-title {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 8px;
+  margin-bottom: 10px;
 }
 
 .framework-sec {
@@ -351,9 +344,37 @@ hr {
 hr {
   color: #dfe1e6;
   width: 80%;
+  margin-bottom: 20px;
 }
 
 .chevron-2 {
   position: relative;
   left: 80%;
+}
+
+.skill-flex {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 40px 10px 40px;
+}
+
+.framework-flex {
+  display: flex;
+  width: 80%;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 40px 10px 40px;
+}
+
+.skill-title {
+  display: flex;
+  width: 80%;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 40px 10px 40px;
 }
