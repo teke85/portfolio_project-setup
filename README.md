@@ -22,6 +22,10 @@
 - VCS: Git
 - Package Manager: Node, NPM
 
+## Live Demo
+
+[Live Demo Link](https://teke85.github.io/portfolio_project-setup/)
+
 ### Prerequisites
 
 To get a local copy up and running follow these simple example steps.
