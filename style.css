@@ -253,7 +253,6 @@ li {
 /* languages section */
 .skill-sec {
   height: 130vh;
-  background-color: #7f8cff;
 }
 
 .skill-container {
@@ -302,16 +301,7 @@ li {
   height: 48px;
   width: 48px;
   object-fit: cover;
-}
-
-.skill-img {
   margin: 10px;
-}
-
-.frameworks-sec {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
 hr {
@@ -325,4 +315,45 @@ hr {
   align-items: center;
   justify-content: space-around;
   height: 100vh;
+}
+
+.skill-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.framework-sec {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  height: 30px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.skills-framework-sec {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  height: 30px;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.chevron-1 {
+  position: relative;
+  left: 60%;
+}
+
+hr {
+  color: #dfe1e6;
+  width: 80%;
+}
+
+.chevron-2 {
+  position: relative;
+  left: 80%;
 }
