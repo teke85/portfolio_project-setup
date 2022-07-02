@@ -6,10 +6,10 @@
 
 # Project Requirements
 
-> In this project, you will be required to build a portfolio with 2 sections only.
+> In this project, you will be required to build the following.
 
-- the header
-- the headline section(right after the header)
+- the works sections
+- about section
 
 > The web page similar to the one in [this link](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)
 
@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- Create a repo name **"Portfolio"** in your github account and add README.MD file
+- Create a repo name **"works section"** in your github account and add README.MD file
 - Create a new branch according to the GitHub flow rules.
   - Remember to switch to the new branch :exclamation:
 - git clone your repo into your local repository
@@ -45,9 +45,7 @@ To get a local copy up and running follow these simple example steps.
   - npm install --save-dev hint@7.x (Install the WebHint Linters)
   - npx hint . (You should see Finishing... on your terminal)
   - Commit the Linters changes to your github repo
-  - Add 2 files:
-    - A .html file that includes a header and a headline section(Right after the header)
-    - A .css file that includes markup for styling your webpage similar to the figma design you chose.
+  - Add works section branch:
   - Make sure that all the relevant files are ignored by git and are not present in your GitHub repository.
   - Commit all changes.
 - Open a pull request.
@@ -72,7 +70,6 @@ Give a ⭐️ if you like this project!
 
 - [Online resource](https://learn.shayhowe.com/html-css/writing-your-best-code/)
 - [Youtube Video](https://www.youtube.com/watch?v=CFgeJq4l1YM&list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid&index=13)
-- [Elie ](https://github.com/X-Elie-X), for always being their to help
 - Thanks to everyone who will dedicate time to check this code and suggest any changes to improve the project.
 
 ## 📝 License
