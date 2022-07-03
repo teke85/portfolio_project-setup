@@ -109,15 +109,16 @@ li {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 327px;
+  grid-template-columns: 1fr;
   grid-template-rows: auto auto auto auto;
   max-width: 375px;
-  border: 1px solid rgb(219, 216, 216);
-  border-radius: 16px;
+  margin: 0 auto;
+  background-color: #f7f7f9;
+  justify-items: center;
 }
 
 .image-fluid {
-  max-width: 327px;
+  max-width: 295px;
   object-fit: cover;
 }
 
@@ -126,18 +127,22 @@ li {
   flex-direction: column;
   align-content: center;
   padding: 16px;
+  border: 1px solid #fff;
+  border-radius: 16px;
+  margin: 114px 0px 88px 0px;
+  background-color: #fff;
 }
 
 .p-title {
   margin: 12px 0 0 30px;
 }
 
-.tonic {
+.title {
   color: var(--h3-color);
   font-size: 26px;
   font-family: var(--font-family);
   font-weight: 700;
-  line-height: 24px;
+  line-height: 44px;
 }
 
 .text {
