@@ -10,6 +10,7 @@
   --li-color: ##c1c7d0;
   --h3-color: #172b4d;
   --h2-color: #172b4d;
+  --btn-bg-color: #ebebff;
 }
 
 * {
@@ -190,7 +191,12 @@ li {
 }
 
 .btn-container-flex {
+  display: flex;
   margin-top: 5px;
+}
+
+.btn {
+  list-style: none;
 }
 
 .btn-sm {
@@ -257,7 +263,9 @@ li {
 .btn-lg:active,
 .btn-xxl:active {
   cursor: pointer;
-  background-color: #2230d2;
+  background-color: #fff;
+  border: 1px solid #7f8cff;
+  color: #6070ff;
 }
 
 .about-title {
