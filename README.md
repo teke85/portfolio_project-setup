@@ -19,6 +19,12 @@
 
 - the About myself section
 
+## Screenshot
+
+Below is a screenshot of the complete project.
+
+![screenshot of project](https://user-images.githubusercontent.com/29442846/177137242-43f6c6cf-eda1-4b78-b6f4-7de90194c0f6.png)
+
 ## Prerequisites
 
 To get a local copy up and running follow these simple example steps.
