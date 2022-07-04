@@ -2,7 +2,7 @@
 
 # Project Name
 
-> **Milestone #1 Portfolio Project!**
+> **Milestone #2 Portfolio Project!**
 
 # Project General Requirements
 
@@ -65,17 +65,20 @@ To get a local copy up and running follow these simple example steps.
 - Update the README.MD file in [this template](https://github.com/microverseinc/readme-template) and commit changes
 - Remember to _customise_ the template to your project :exclamation:
 - Setup Linters by running following commands in your terminal:
+
   - npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x (Install the StyleHint linters)
   - npx stylelint "\*_/_.{css,scss}" (checks for the CSS related errors in your project)
   - npx stylelint "\*_/_.{css,scss}" --fix (This will fix the linters error, if any)
   - npm install --save-dev hint@7.x (Install the WebHint Linters)
   - npx hint . (You should see Finishing... on your terminal)
   - Commit the Linters changes to your github repo
-  - Add 2 files:
-    - A .html file that includes a header and a headline section(Right after the header)
-    - A .css file that includes markup for styling your webpage similar to the figma design you chose.
+
+  - Add 2 sections:
+    - A works section.
+    - About myself section.
   - Make sure that all the relevant files are ignored by git and are not present in your GitHub repository.
   - Commit all changes.
+
 - Open a pull request.
 
 ## Authors
