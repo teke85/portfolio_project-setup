@@ -1,12 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+## My Portfolio Project
 
 > **Milestone #2 Portfolio Project!**
 
-# Project General Requirements
+## Project Requirements
 
-**In this project, you will be required to achieve the following.**
+**General Requirements**
+
+**In this project, I will be required to achieve the following.**
 
 - Understand how to parse a Figma design to create a UI.
 - Use Flexbox to place elements in the page.
@@ -17,11 +19,13 @@
 
 ## Detailed Requirements
 
-You will build the middle section of the mobile website. The sections of the mobile website should include:
+I will build the middle section of the mobile website. The sections of the mobile website should include:
 
 - the **"Works"** section
 
 - the **"About myself"** section (placed after the projects and before the contact form):
+
+**The other requirements are as follows;**
 
 - In order to lay out the elements in "Works" section you should use CSS Grid and Flexbox combined (it is mandatory that you use both). Use CSS Grid in the main container that contains all of the cards and use Flexbox to lay out an individual card.
 
@@ -44,9 +48,9 @@ You will build the middle section of the mobile website. The sections of the mob
 - VCS: Git
 - Package Manager: Node, NPM
 
-## Live Demo
+## Screenshot
 
-[Live Demo Link](https://teke85.github.io/portfolio_project-setup/)
+Below is a screenshot of the complete project.
 
 ### Prerequisites
 
