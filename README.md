@@ -15,13 +15,13 @@
 
 > The web page similar to the one in [this link](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)
 
-## Project Detailed Requirements
+## Detailed Requirements
 
-You will build the middle section of the mobile website. This sections of the mobile website should include:
+You will build the middle section of the mobile website. The sections of the mobile website should include:
 
-- the "Works" section
+- the **"Works"** section
 
-- the "About myself" section (placed after the projects and before the contact form):
+- the **"About myself"** section (placed after the projects and before the contact form):
 
 - In order to lay out the elements in "Works" section you should use CSS Grid and Flexbox combined (it is mandatory that you use both). Use CSS Grid in the main container that contains all of the cards and use Flexbox to lay out an individual card.
 
