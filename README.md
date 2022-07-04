@@ -15,7 +15,7 @@
 
 > The web page similar to the one in [this link](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)
 
-#Project Detailed Requirements
+## Project Detailed Requirements
 
 You will build the middle section of the mobile website. This sections of the mobile website should include:
 
