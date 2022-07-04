@@ -4,88 +4,43 @@
 
 > **Milestone #2 Portfolio Project!**
 
-## Project Requirements
-
-**General Requirements**
-
-**In this project, I will be required to achieve the following.**
-
-- Understand how to parse a Figma design to create a UI.
-- Use Flexbox to place elements in the page.
-- Use CSS Grid to place elements in the page.
-- Build a personal portfolio site.
-
-> The web page similar to the one in [this link](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)
-
-## Detailed Requirements
-
-I will build the middle section of the mobile website. The sections of the mobile website should include:
-
-- the **"Works"** section
-
-- the **"About myself"** section (placed after the projects and before the contact form):
-
-**The other requirements are as follows;**
-
-- In order to lay out the elements in "Works" section you should use CSS Grid and Flexbox combined (it is mandatory that you use both). Use CSS Grid in the main container that contains all of the cards and use Flexbox to lay out an individual card.
-
-- Please use ul and li for categories in "Work" section. Html, Css, and Javascript should be list items.
-
-- Please use ul and li for categories in "About myself" section. Languages, Frameworks, and Skills should be list items.
-
-- You don't need to implement the detail modal window that requires JavaScript.
-
-- You must stick to the design as much as possible (e.g., font, colors, images, text, margins) using the templates in Figma.
-
-- Implement the button interactions (enable, hover, etc.).
-
 ## Built With
 
 - Languages Used: Html, CSS
 - Code Editor: Visual Studio Code
+- Concepts Used: Flexbox, Grid system
 - Tools Used: Linters
-- Applications Used: GitHub Desktop
 - VCS: Git
 - Package Manager: Node, NPM
 
-## Screenshot
-Below is a screenshot of the complete project.
+## Project Description
 
+- the Works section
 
-![screenshot of project](https://user-images.githubusercontent.com/29442846/177137242-43f6c6cf-eda1-4b78-b6f4-7de90194c0f6.png)
+- the About myself section
 
-### Prerequisites
+## Prerequisites
 
 To get a local copy up and running follow these simple example steps.
 
 - You need to have a Code Editor Installed.
 - Make sure Nodejs and NPM are installed in your system to setup linters
+- Setup
 
-### Setup
+## Setup
 
-- Create a repo name **"Portfolio"** in your github account and add README.MD file
-- Create a new branch according to the GitHub flow rules.
-  - Remember to switch to the new branch :exclamation:
-- git clone your repo into your local repository
-- Add a .gitignore file.
-- Update the README.MD file in [this template](https://github.com/microverseinc/readme-template) and commit changes
-- Remember to _customise_ the template to your project :exclamation:
+- git clone https://github.com/teke85/portfolio_project-setup.git
 - Setup Linters by running following commands in your terminal:
 
-  - npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x (Install the StyleHint linters)
-  - npx stylelint "\*_/_.{css,scss}" (checks for the CSS related errors in your project)
-  - npx stylelint "\*_/_.{css,scss}" --fix (This will fix the linters error, if any)
+  - npm install --save-dev stylelint@13.x stylelint-scss@3.x - - - stylelint-config-standard@21.x stylelint-csstree-validator@1.x (Install the StyleHint linters)
+  - npx stylelint "\*/.{css,scss}" (checks for the CSS related errors in your project)
+  - npx stylelint "\*/.{css,scss}" --fix (This will fix the linters error, if any)
   - npm install --save-dev hint@7.x (Install the WebHint Linters)
   - npx hint . (You should see Finishing... on your terminal)
-  - Commit the Linters changes to your github repo
 
-  - Add 2 sections:
-    - A works section.
-    - About myself section.
-  - Make sure that all the relevant files are ignored by git and are not present in your GitHub repository.
-  - Commit all changes.
+  ## Live Demo (if available)
 
-- Open a pull request.
+  Non Available
 
 ## Authors
 
@@ -94,10 +49,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@teke85](https://github.com/teke85)
 - Twitter: [@muttau](https://twitter.com/muttau)
 - LinkedIn: [isiteketo mutau](https://www.linkedin.com/in/isiteketo-mutau-736894241/)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
 
 ## Show your support
 
