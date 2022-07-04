@@ -6,12 +6,12 @@
 
 # Project General Requirements
 
-**In this project, you will be required to build achieve the following.**
+**In this project, you will be required to achieve the following.**
 
-> Understand how to parse a Figma design to create a UI.
-> Use Flexbox to place elements in the page.
-> Use CSS Grid to place elements in the page.
-> Build a personal portfolio site.
+- Understand how to parse a Figma design to create a UI.
+- Use Flexbox to place elements in the page.
+- Use CSS Grid to place elements in the page.
+- Build a personal portfolio site.
 
 > The web page similar to the one in [this link](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)
 
@@ -19,21 +19,21 @@
 
 You will build the middle section of the mobile website. This sections of the mobile website should include:
 
-"Works" section
+- the "Works" section
 
-the "About myself" section (placed after the projects and before the contact form):
+- the "About myself" section (placed after the projects and before the contact form):
 
-> In order to lay out the elements in "Works" section you should use CSS Grid and Flexbox combined (it is mandatory that you use both). Use CSS Grid in the main container that contains all of the cards and use Flexbox to lay out an individual card.
+- In order to lay out the elements in "Works" section you should use CSS Grid and Flexbox combined (it is mandatory that you use both). Use CSS Grid in the main container that contains all of the cards and use Flexbox to lay out an individual card.
 
-> Please use ul and li for categories in "Work" section. Html, Css, and Javascript should be list items.
+- Please use ul and li for categories in "Work" section. Html, Css, and Javascript should be list items.
 
-> Please use ul and li for categories in "About myself" section. Languages, Frameworks, and Skills should be list items.
+- Please use ul and li for categories in "About myself" section. Languages, Frameworks, and Skills should be list items.
 
-> You don't need to implement the detail modal window that requires JavaScript.
+- You don't need to implement the detail modal window that requires JavaScript.
 
-> You must stick to the design as much as possible (e.g., font, colors, images, text, margins) using the templates in Figma.
+- You must stick to the design as much as possible (e.g., font, colors, images, text, margins) using the templates in Figma.
 
-> Implement the button interactions (enable, hover, etc.).
+- Implement the button interactions (enable, hover, etc.).
 
 ## Built With
 
