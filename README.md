@@ -49,8 +49,10 @@ I will build the middle section of the mobile website. The sections of the mobil
 - Package Manager: Node, NPM
 
 ## Screenshot
-
 Below is a screenshot of the complete project.
+
+
+![screenshot of project](https://user-images.githubusercontent.com/29442846/177137242-43f6c6cf-eda1-4b78-b6f4-7de90194c0f6.png)
 
 ### Prerequisites
 
