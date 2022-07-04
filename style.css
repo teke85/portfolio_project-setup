@@ -64,6 +64,7 @@ body {
   background-image: url("images/background/bg_image.svg");
   background-repeat: no-repeat;
   background-color: #ffff;
+  margin: 6px 36px 12px 36px;
 }
 
 h1 {
