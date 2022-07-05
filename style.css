@@ -271,13 +271,21 @@ li {
   color: #6070ff;
 }
 
+/*about section starts here*/
+
+.about {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
 .about-title {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 40px;
   color: var(--h2-color);
   line-height: 52px;
-  margin: 114px 24px 12px 12px;
+  margin: 0px 24px 12px 12px;
+  padding-top: 114px;
 }
 
 .about-btn {
@@ -298,7 +306,10 @@ li {
   align-items: center;
   justify-content: space-between;
   width: 375px;
-  margin: 0 auto;
+}
+
+.accordion li {
+  list-style: none;
 }
 
 .skill--description {
@@ -312,7 +323,7 @@ li {
 
 .skill--description-link {
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 36px;
 }
 
 .skill {
