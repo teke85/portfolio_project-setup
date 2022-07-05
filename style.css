@@ -28,12 +28,15 @@ body {
 
 /* Header Section */
 
+header {
+  background-color: #fff;
+  max-width: 375px;
+}
+
 .flex-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px;
-  height: 40px;
   color: var(--logo-color);
 }
 
@@ -48,7 +51,15 @@ body {
   font-size: 18px;
 }
 
+.logo-container {
+  padding: 58px 0px 0px 24px;
+}
+
 /* Menu Icon */
+
+.menu {
+  padding: 58px 24px 0px 0px;
+}
 
 .ion-icon {
   padding: 8px;
@@ -62,7 +73,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 120vh;
+  height: 100vh;
   background-image: url("images/background/header-shapes\ mobile.png");
   background-repeat: no-repeat;
   border-bottom-left-radius: 25% 100px;
