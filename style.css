@@ -20,9 +20,9 @@
 }
 
 body {
-  min-width: 375px;
+  max-width: 375px;
   font-family: var(--font-family);
-  background-color: #ffff;
+  margin: 0 auto;
 }
 
 /* Header Section */
@@ -62,9 +62,9 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 120vh;
-  background-image: url("images/background/bg_image.svg");
+  background-image: url("images/background/header-shapes\ mobile.png");
   background-repeat: no-repeat;
-  background-color: #ffff;
+  border-bottom-left-radius: 25% 50px;
 }
 
 h2 {
@@ -276,6 +276,9 @@ li {
 .about {
   max-width: 375px;
   margin: 0 auto;
+  background-image: url("images/background/Base\ about\ my\ self.png");
+  background-repeat: no-repeat;
+  border-top-right-radius: 0% 25px;
 }
 
 .about-title {
