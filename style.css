@@ -23,6 +23,7 @@ body {
   max-width: 375px;
   font-family: var(--font-family);
   margin: 0 auto;
+  background-color: #f7f7f9;
 }
 
 /* Header Section */
@@ -64,7 +65,8 @@ body {
   height: 120vh;
   background-image: url("images/background/header-shapes\ mobile.png");
   background-repeat: no-repeat;
-  border-bottom-left-radius: 25% 50px;
+  border-bottom-left-radius: 25% 100px;
+  background-color: #fff;
 }
 
 h2 {
@@ -279,6 +281,7 @@ li {
   background-image: url("images/background/Base\ about\ my\ self.png");
   background-repeat: no-repeat;
   border-top-right-radius: 0% 25px;
+  background-color: #f7f7f9;
 }
 
 .about-title {
