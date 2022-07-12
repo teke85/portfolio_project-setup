@@ -221,6 +221,7 @@ li {
   color: #b7bcff;
   padding: 4px 12px 4px 12px;
   transition: 0.2s;
+  float: left;
 }
 
 .btn-md {
