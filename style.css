@@ -25,7 +25,7 @@ body {
   max-width: 375px;
   font-family: var(--font-family);
   margin: 0 auto;
-  background-color: #f7f7f9;
+  background-color: #fff;
 }
 
 /* Header Section */
@@ -296,7 +296,7 @@ li {
 
 .about {
   max-width: 375px;
-  margin: 0 auto;
+  margin: 0 auto 133px 0px;
   background-image: url("images/background/Base\ about\ my\ self.png");
   background-repeat: no-repeat;
   border-top-right-radius: 0% 25px;
@@ -396,7 +396,6 @@ hr {
 }
 
 .underline {
-  margin-bottom: 113px;
   color: #dfe1e6;
 }
 
