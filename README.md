@@ -6,9 +6,11 @@
 
 # Project Requirements
 
-> In this project, you will be required to add a Contact Form to the Mobile Vers.
+> In this project, you will be required to add a Contact Form to the Mobile Version Project.
 
 > build a web page similar to the one in [this link](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)
+
+# Screen Shot of Complete Project
 
 ## Built With
 
@@ -67,10 +69,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [Online resource](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-- [Youtube Video](https://www.youtube.com/watch?v=CFgeJq4l1YM&list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid&index=13)
-- [Elie ](https://github.com/X-Elie-X), for always being their to help
-- Thanks to everyone who will dedicate time to check this code and suggest any changes to improve the project.
+- [Online resource](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#using_built-in_form_validation)
 
 ## 📝 License
 
