@@ -308,16 +308,17 @@
       </div>
     </section>
     <section class="contact-form-sec">
-    <h1>Contact me</h1>
-    <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+    <h1 class="contact-me">Contact me</h1>
+    <p class="contact-paragraph">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
     <form class="form">            
-      <input type="text" autofocus placeholder="Yeremias" required>  
-      <input type="email" autofocus placeholder="natajayanji@gmail.com" required> 
-      <textarea rows="5" placeholder="Write your message here" cols="40" name="message" id="address"></textarea>
+      <input type="text" class="field" required autofocus maxlength="30" placeholder="Yeremias">  
+      <input type="email" id="email" class="field" required autofocus maxlength="25" placeholder="natajayanji@gmail.com"> 
+      <textarea class="text-area" rows="5" maxlength="500"  required placeholder="Write your message here" cols="40" name="message" id="message"></textarea>
   </form>
   <li class="btn_form">
-    <button type="submit">Get In Touch</button>
+    <button class="form-submit" type="submit">Get In Touch</button>
   </li>
+  <img class="shape" src="images/background/Shape.png" alt="">
   </section>
 
     <script
