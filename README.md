@@ -2,13 +2,13 @@
 
 # Project Name
 
-> **Contact Form!**
+Mobile Version - Contact Form
 
 # Project Requirements
 
-> In this project, you will be required to add a Contact Section to the Mobile Version Portfolio Project.
+In this project, you will be required to add a Contact Section to the Mobile Version Portfolio Project.
 
-> To build a Contact Section similar to the one in [this link](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1) & add it to the Mobile Version Portfolio Project.
+To build a Contact Section similar to the one in [this link](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1) & add it to the Mobile Version Portfolio Project.
 
 # Screen Shot of Complete Project
 ![Contact Form Mobile Version](https://user-images.githubusercontent.com/29442846/178802104-563644ef-e313-40e3-8737-2edce87de178.png)
