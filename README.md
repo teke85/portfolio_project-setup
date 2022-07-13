@@ -8,9 +8,10 @@
 
 > In this project, you will be required to add a Contact Section to the Mobile Version Portfolio Project.
 
-> build a Contact Section similar to the one in [this link](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)
+> To build a Contact Section similar to the one in [this link](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1) & add it to the Mobile Version Portfolio Project.
 
 # Screen Shot of Complete Project
+![Contact Form Mobile Version](https://user-images.githubusercontent.com/29442846/178802104-563644ef-e313-40e3-8737-2edce87de178.png)
 
 ## Built With
 
@@ -31,7 +32,7 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 - Create a repo name **"Portfolio"** in your github account and add README.MD file
-- Create a new branch according to the GitHub flow rules.
+- Create a new branch **"Mobile-Version_Contact-Form"** according to the GitHub flow rules.
   - Remember to switch to the new branch :exclamation:
 - git clone your repo into your local repository
 - Add a .gitignore file.
@@ -44,10 +45,7 @@ To get a local copy up and running follow these simple example steps.
   - npm install --save-dev hint@7.x (Install the WebHint Linters)
   - npx hint . (You should see Finishing... on your terminal)
   - Commit the Linters changes to your github repo
-  - Add 2 files:
-    - A .html file that includes a header and a headline section(Right after the header)
-    - A .css file that includes markup for styling your webpage similar to the figma design you chose.
-  - Make sure that all the relevant files are ignored by git and are not present in your GitHub repository.
+  - Add a contact section:
   - Commit all changes.
 - Open a pull request.
 
