@@ -8,7 +8,7 @@
 
 > In this project, you will be required to add a Contact Form to the Mobile Version Project.
 
-> build a web page similar to the one in [this link](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)
+> build a Contact Section similar to the one in [this link](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)
 
 # Screen Shot of Complete Project
 
