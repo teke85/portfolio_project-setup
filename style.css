@@ -276,6 +276,12 @@ li {
   color: #fff;
 }
 
+.btn-submit:hover {
+  cursor: pointer;
+  transform: translateY(4px);
+}
+
+.btn-submit:active,
 .btn-sm:active,
 .btn-md:active,
 .btn-lg:active,
@@ -385,8 +391,13 @@ li {
 hr {
   width: 327px;
   height: 1px;
-  background-color: #dfe1e6;
+  color: #dfe1e6;
   margin: 0 auto;
+}
+
+.underline {
+  margin-bottom: 113px;
+  color: #dfe1e6;
 }
 
 .framework--title-link,
@@ -458,7 +469,7 @@ hr {
   list-style: none;
 }
 
-.form-submit {
+.btn-submit {
   width: 140px;
   height: 48px;
   border-radius: 8px;
