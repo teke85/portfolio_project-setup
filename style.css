@@ -54,13 +54,13 @@ header {
 }
 
 .logo-container {
-  padding: 58px 0px 0px 24px;
+  padding: 58px 0 0 24px;
 }
 
 /* Menu Icon */
 
 .menu {
-  padding: 58px 24px 0px 0px;
+  padding: 58px 24px 0 0;
 }
 
 .ion-icon {
@@ -276,6 +276,17 @@ li {
   color: #fff;
 }
 
+.btn-submit {
+  width: 140px;
+  height: 48px;
+  border-radius: 8px;
+  margin: 22px 0 45px 24px;
+  font-family: var(--font-family);
+  font-size: 17px;
+  color: #6070ff;
+  border: none;
+}
+
 .btn-submit:hover {
   cursor: pointer;
   transform: translateY(4px);
@@ -292,11 +303,11 @@ li {
   color: #6070ff;
 }
 
-/*about section starts here*/
+/* about section starts here */
 
 .about {
   max-width: 375px;
-  margin: 0 auto 133px 0px;
+  margin: 0 auto 133px 0;
   background-image: url("images/background/Base\ about\ my\ self.png");
   background-repeat: no-repeat;
   border-top-right-radius: 0% 25px;
@@ -309,7 +320,7 @@ li {
   font-size: 40px;
   color: var(--h2-color);
   line-height: 52px;
-  margin: 0px 24px 12px 12px;
+  margin: 0 24px 12px 12px;
   padding-top: 114px;
 }
 
@@ -422,6 +433,7 @@ hr {
   font-family: var(--font-family);
   border-top-left-radius: 25% 100px;
 }
+
 .form {
   display: flex;
   flex-direction: column;
@@ -432,7 +444,7 @@ hr {
   width: 327px;
   height: 48px;
   border-radius: 8px;
-  margin: 0px 24px 20px 24px;
+  margin: 0 24px 20px 24px;
   outline: none;
   padding-left: 16px;
   font-size: 17px;
@@ -442,7 +454,7 @@ hr {
 }
 
 .text-area {
-  margin: 0px 24px 0px 24px;
+  margin: 0 24px 0 24px;
   border-radius: 8px;
   padding: 15px 38px 15px 16px;
   font-weight: 400;
@@ -460,7 +472,7 @@ hr {
 .contact-paragraph {
   color: #fff;
   width: 327px;
-  margin: 0px 24px 50px 24px;
+  margin: 0 24px 50px 24px;
   font-size: 20px;
 }
 
@@ -468,19 +480,8 @@ hr {
   list-style: none;
 }
 
-.btn-submit {
-  width: 140px;
-  height: 48px;
-  border-radius: 8px;
-  margin: 22px 0px 45px 24px;
-  font-family: var(--font-family);
-  font-size: 17px;
-  color: #6070ff;
-  border: none;
-}
-
 .shape {
   width: 134px;
   height: 5px;
-  margin: 0px 121px 8px 120px;
+  margin: 0 121px 8px 120px;
 }
