@@ -52,6 +52,10 @@ header {
   font-size: 18px;
 }
 
+.navbar {
+  display: none;
+}
+
 .logo-container {
   padding: 0px 0 0 24px;
 }
@@ -483,4 +487,29 @@ hr {
   width: 134px;
   height: 5px;
   margin: 0 121px 8px 120px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 100%;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+  .nav-link-item {
+    list-style: none;
+  }
+
+  .hero {
+    background-image: url(images/background/desktop/bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
 }
