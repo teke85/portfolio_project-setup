@@ -126,8 +126,6 @@ li {
 
 /* works section starts */
 
-/* works section starts */
-
 .grid-container {
   display: grid;
   grid-template-columns: auto;
@@ -310,7 +308,7 @@ li {
 
 .about {
   max-width: 375px;
-  margin: 0 auto 133px 0;
+  margin: 0 auto 133px;
   background-image: url("images/background/Base\ about\ my\ self.png");
   background-repeat: no-repeat;
   border-top-right-radius: 0% 25px;
@@ -329,6 +327,10 @@ li {
 
 .about-btn {
   margin-left: 20px;
+}
+
+.media_icons {
+  padding-left: 20px;
 }
 
 .btn-resume {
@@ -492,6 +494,11 @@ hr {
 @media screen and (min-width: 768px) {
   body {
     max-width: 100%;
+    background-color: #e5e5e5;
+  }
+
+  .flex-container {
+    height: 72px;
   }
 
   .menu {
@@ -499,31 +506,53 @@ hr {
   }
 
   .logo-container {
-    margin: 25px 0px 0px 155px;
+    margin: 26px 0px 26px 155px;
   }
 
   .navbar {
     display: flex;
-    margin: 25px 154px 0px 0px;
+    margin: 26px 154px 26px 0px;
   }
 
   .nav-link-item {
     list-style: none;
+    color: #344563;
   }
 
   .hero {
     background-image: url(images/background/desktop/bg.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: 10px 30px;
+    border-bottom-left-radius: 100px;
+    height: 719px;
   }
 
   .hero h2 {
     font-size: 48px;
-    margin: 0px 260px 12px 260px;
+    margin: 359px 260px 0px 230px;
+    width: 50%;
   }
 
-  .paragraph {
+  .hero-paragraph {
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
     margin: 12px 260px 0px 260px;
+    color: var(--paragraph-color);
+  }
+
+  .hero-subheading {
+    margin: 12px 0px 14px 260px;
+    color: #7f8cff;
+  }
+
+  .socialmedia_icons {
+    margin: 14px 0px 255px 260px;
+  }
+
+  .media_icons {
+    margin-left: 0;
   }
 }
