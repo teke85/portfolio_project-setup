@@ -500,6 +500,7 @@ hr {
 
   .navbar {
     display: flex;
+    margin: 25px 154px 0px 0px;
   }
 
   .nav-link-item {
@@ -510,6 +511,9 @@ hr {
     background-image: url(images/background/desktop/bg.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: top;
+  }
+  .logo-container {
+    margin: 25px 0px 0px 155px;
   }
 }
