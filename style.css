@@ -132,20 +132,12 @@ h2 {
 /* works section starts */
 
 .card-container {
-  /* max-width: 375px; */
   display: grid;
   gap: 88px;
-  /* flex-direction: column; */
   padding: 114px 24px;
-  /* margin: 0 10%; */
   background-color: #f7f7f9;
   justify-items: center;
 }
-
-/* .image-fluid {
-  max-width: 295px;
-  object-fit: cover;
-} */
 
 .card-layout {
   display: flex;
