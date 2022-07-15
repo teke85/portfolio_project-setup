@@ -365,6 +365,10 @@ h2 {
   height: 48px;
 }
 
+.flex {
+  display: flex;
+}
+
 /* .about {
   border-radius: 0 8rem 0 0;
   display: flex;
@@ -661,6 +665,14 @@ hr {
     gap: 12px;
   }
 
+  .about-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10%;
+    gap: 25px;
+    border-radius: 0 8rem 0 0;
+  }
+
   .about-social-icons {
     list-style: none;
   }
@@ -696,11 +708,20 @@ hr {
   }
 
   .about-section {
-    display: grid;
     grid-template-columns: 40% 1fr;
-    padding: 10%;
     gap: 25px;
-    border-radius: 0 8rem 0 0;
+    padding: 7.125rem 1.5rem;
+    background-color: white;
+    border-top-right-radius: 80px;
+    padding: 50px;
+  }
+
+  .tech-content > ul > li {
+    background-color: #f7f7f9;
+    border-radius: 8px;
+    padding: 9px 12px;
+    margin: 12px 0;
+    column-gap: 16px;
   }
 
   /*Languages section*/
