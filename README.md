@@ -2,16 +2,17 @@
 
 # Project Name
 
-Mobile Version - Contact Form
+Desktop Version of Portfolio Project
 
 # Project Requirements
 
-- To build a Contact Section similar to the one in [this link](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1) & add it to the Mobile Version Portfolio Project.
-
-- To add a Contact Form that guides users' experience in a way that helps them fill in the form without frustration.
+- To build a Desktop Version of the Portfolio similar to the one provided in the figma design.
+- To use media queries in the CSS file to make the desktop version.
+- To use Grid and Flexbox to layout elements on the page.
 
 # Screen Shot of Complete Project
-![Contact Form Mobile Version](https://user-images.githubusercontent.com/29442846/178802104-563644ef-e313-40e3-8737-2edce87de178.png)
+
+![screencapture-127-0-0-1-5503-2022-07-16-10_21_19](https://user-images.githubusercontent.com/29442846/179347500-57a56c20-1591-4d33-b439-53dbd330950f.png)
 
 ## Built With
 
@@ -32,7 +33,7 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 - Create a repo name **"Portfolio"** in your github account and add README.MD file
-- Create a new branch **"Mobile-Version_Contact-Form"** according to the GitHub flow rules.
+- Create a new branch **"Desktop Version"** according to the GitHub flow rules.
   - Remember to switch to the new branch :exclamation:
 - git clone your repo into your local repository
 - Add a .gitignore file.
