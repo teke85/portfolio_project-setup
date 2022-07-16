@@ -639,5 +639,9 @@ h2 {
     color: #6070ff;
   }
 
+  .btn-submit {
+    margin: 27px auto;
+  }
+
   /* Languages section */
 }
