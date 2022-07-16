@@ -581,6 +581,15 @@ h2 {
     width: 97%;
   }
 
+  .about-section {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 40% 1fr;
+    padding: 7.125rem 1.5rem;
+    background-color: white;
+    border-radius: 0 8rem 0 0;
+  }
+
   .about-social-icons {
     list-style: none;
   }
@@ -608,14 +617,6 @@ h2 {
     text-transform: uppercase;
     font-weight: 500;
     margin: 0;
-  }
-
-  .about-section {
-    grid-template-columns: 40% 1fr;
-    gap: 25px;
-    padding: 7.125rem 1.5rem;
-    background-color: white;
-    border-radius: 0 8rem 0 0;
   }
 
   .tech-content > ul > li {
