@@ -577,6 +577,14 @@ h2 {
     margin: 30px 0 30px 30px;
   }
 
+  .image-fluid {
+    transition: transform 0.6s;
+  }
+
+  .image-fluid:hover {
+    transform: scale(1.1);
+  }
+
   .p-title {
     gap: 24px;
     margin-top: 20px;
