@@ -668,7 +668,12 @@ h2 {
 
   /* Languages section */
 
-  .tech-images {
-    margin-right: 30px;
+  .tech-content > ul > li {
+    background-color: #f7f7f9;
+    border-radius: 8px;
+    padding: 9px 12px;
+    margin: 12px 20px;
+    column-gap: 16px;
+    list-style: none;
   }
 }
