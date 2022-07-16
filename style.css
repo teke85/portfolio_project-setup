@@ -645,6 +645,13 @@ h2 {
     color: #6070ff;
   }
 
+  .btn-submit {
+    margin: 27px auto;
+    border: 1px solid #fff;
+    color: #6070ff;
+    background-color: #fff;
+  }
+
   .btn-submit:active {
     background-color: #2230d2;
   }
@@ -652,13 +659,6 @@ h2 {
   .btn-submit:disabled {
     background-color: #fff;
     color: #5e6c84;
-  }
-
-  .btn-submit {
-    margin: 27px auto;
-    border: 1px solid #fff;
-    color: #6070ff;
-    background-color: #fff;
   }
 
   .btn-submit:hover {
