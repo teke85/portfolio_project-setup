@@ -625,14 +625,6 @@ h2 {
     color: #7f8cff;
   }
 
-  .tech-content > ul > li {
-    background-color: #f7f7f9;
-    border-radius: 8px;
-    padding: 9px 12px;
-    margin: 12px 0;
-    column-gap: 16px;
-  }
-
   .btn:hover {
     cursor: pointer;
     transform: translateY(4px);
@@ -669,11 +661,11 @@ h2 {
   /* Languages section */
 
   .tech-content > ul > li {
+    list-style: none;
     background-color: #f7f7f9;
     border-radius: 8px;
     padding: 9px 12px;
-    margin: 12px 20px;
+    margin: 12px 0;
     column-gap: 16px;
-    list-style: none;
   }
 }
