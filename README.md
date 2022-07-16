@@ -2,15 +2,16 @@
 
 # Project Name
 
-Mobile Version - Contact Form
+Destop Version of Portfolio Project
 
 # Project Requirements
 
-- To build a Contact Section similar to the one in [this link](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1) & add it to the Mobile Version Portfolio Project.
+- To build a Desktop Version similar to the one in [this link](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1) & add it to the Mobile Version Portfolio Project.
 
 - To add a Contact Form that guides users' experience in a way that helps them fill in the form without frustration.
 
 # Screen Shot of Complete Project
+
 ![Contact Form Mobile Version](https://user-images.githubusercontent.com/29442846/178802104-563644ef-e313-40e3-8737-2edce87de178.png)
 
 ## Built With
