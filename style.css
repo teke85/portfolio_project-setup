@@ -26,10 +26,6 @@ body {
   background-color: #fff;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 /* Header Section */
 
 header {
