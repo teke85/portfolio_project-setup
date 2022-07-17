@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Welcome to Teke's Portfolio
 
-Desktop Version of Portfolio Project
+# [Check Out My Portfolio Here](https://teke85.github.io/portfolio_project-setup/#portfolio)
 
 # Project Requirements
 
