@@ -513,6 +513,7 @@ h2 {
   }
 
   .nav-link {
+    text-decoration: none;
     color: #507dc9;
     cursor: pointer;
     margin-right: 32px;
@@ -559,11 +560,6 @@ h2 {
     display: flex;
     grid-template-columns: 1fr 1fr;
     align-items: flex-start;
-  }
-
-  .nav-link {
-    text-decoration: none;
-    color: #6070ff;
   }
 
   .btn {
