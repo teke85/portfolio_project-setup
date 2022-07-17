@@ -37,13 +37,17 @@ Go to the project directory
 Open the **index file** in a browser of your choice
 
 <details>
-<summary>To Install linters and check for errors</summary>
+<summary>
+To Install linters and check for errors
+</summary>
 <p> Setup Linters by running following commands in your terminal:
+
+**Install Style Lint**
   - npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x (Install the StyleHint linters)
-  
   - npx stylelint "\*_/_.{css,scss}" (checks for the CSS related errors in your project)
   - npx stylelint "\*_/_.{css,scss}" --fix (This will fix the linters error, if any)
   
+ **Install Webhint**
   - npm install --save-dev hint@7.x (Install the WebHint Linters)
   - npx hint . (You should see Finishing... on your terminal)
   - Commit the Linters changes to your github repo</p>
