@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Welcome to Teke's Portfolio
+# Welcome to my Portfolio Project
 
 ## About me ##
 I am a front-end remote web developer who combines the art of design with the art of programming by translating UI/UX design wireframes to code.
