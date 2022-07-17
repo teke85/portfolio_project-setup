@@ -7,12 +7,6 @@ I am a front-end remote web developer who combines the art of design with the ar
 
 # Check Out My Portfolio [Here](https://teke85.github.io/portfolio_project-setup/#portfolio)
 
-# Project Requirements
-
-- To build a Desktop Version of the Portfolio similar to the one provided in the figma design.
-- To use media queries in the CSS file to make the desktop version.
-- To use Grid and Flexbox to layout elements on the page.
-
 ## Built With
 
 - Languages Used: Html, CSS
@@ -32,7 +26,7 @@ I am a front-end remote web developer who combines the art of design with the ar
 Clone the project on your computer
 
 ```
-  git clone https://link-to-project](https://github.com/teke85/portfolio_project-setup.git)
+  git clone https://github.com/teke85/portfolio_project-setup.git
 ```
 
 Go to the project directory
