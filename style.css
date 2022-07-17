@@ -138,8 +138,6 @@ h2 {
   background-color: #fff;
   border: 1px solid #dfe1e6;
   gap: 30px;
-
-  /* margin: 0 10%; */
   min-height: 370px;
   align-items: center;
   flex-wrap: wrap;
@@ -519,7 +517,7 @@ h2 {
 
   .nav-link:hover {
     background-color: #5864d2;
-    color: #fff !important;
+    color: #fff;
   }
 
   .nav-link-item:hover,
