@@ -71,4 +71,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
