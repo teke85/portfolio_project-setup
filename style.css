@@ -515,20 +515,19 @@ h2 {
 
   .nav-link-item {
     list-style: none;
+  }
+
+  .nav-link {
     color: #507dc9;
     cursor: pointer;
     margin-right: 32px;
     transition: all 0.5s ease-out;
   }
 
-  .nav-link:hover {
-    color: #fff;
-  }
-
-  .nav-link-item:hover,
-  .nav-link-item:focus {
+  .nav-link:hover,
+  .nav-link:focus {
     background-color: #5864d2;
-    color: #fff !important;
+    color: #fff;
   }
 
   .hero {
