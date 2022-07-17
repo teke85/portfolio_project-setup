@@ -1,18 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Welcome to Teke's Portfolio
+# Welcome to my Portfolio Project
 
-# [Check Out My Portfolio Here](https://teke85.github.io/portfolio_project-setup/#portfolio)
+## About me ##
+I am a front-end remote web developer who combines the art of design with the art of programming by translating UI/UX design wireframes to code.
 
-# Project Requirements
-
-- To build a Desktop Version of the Portfolio similar to the one provided in the figma design.
-- To use media queries in the CSS file to make the desktop version.
-- To use Grid and Flexbox to layout elements on the page.
-
-# Screen Shot of Complete Project
-
-![Portfolio (2)](https://user-images.githubusercontent.com/29442846/179360917-9bc053fc-8fcb-49cd-9038-091b00e12891.png)
+# Check Out My Portfolio [Here](https://teke85.github.io/portfolio_project-setup/#portfolio)
 
 ## Built With
 
@@ -25,30 +18,36 @@
 
 ### Prerequisites
 
-To get a local copy up and running follow these simple example steps.
-
 - You need to have a Code Editor Installed.
 - Make sure Nodejs and NPM are installed in your system to setup linters
 
-### Setup
+## Run Locally
 
-- Create a repo name **"Portfolio"** in your github account and add README.MD file
-- Create a new branch **"Desktop Version"** according to the GitHub flow rules.
-  - Remember to switch to the new branch :exclamation:
-- git clone your repo into your local repository
-- Add a .gitignore file.
-- Update the README.MD file in [this template](https://github.com/microverseinc/readme-template) and commit changes
-- Remember to _customise_ the template to your project :exclamation:
-- Setup Linters by running following commands in your terminal:
+Clone the project on your computer
+
+```
+  git clone https://github.com/teke85/portfolio_project-setup.git
+```
+
+Go to the project directory
+
+```
+  cd portfolio_project-setup
+```
+Open the **index file** in a browser of your choice
+
+<details>
+<summary>To Install linters and check for errors</summary>
+<p> Setup Linters by running following commands in your terminal:
   - npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x (Install the StyleHint linters)
+  
   - npx stylelint "\*_/_.{css,scss}" (checks for the CSS related errors in your project)
   - npx stylelint "\*_/_.{css,scss}" --fix (This will fix the linters error, if any)
+  
   - npm install --save-dev hint@7.x (Install the WebHint Linters)
   - npx hint . (You should see Finishing... on your terminal)
-  - Commit the Linters changes to your github repo
-  - Add a contact section:
-  - Commit all changes.
-- Open a pull request.
+  - Commit the Linters changes to your github repo</p>
+</details>
 
 ## Authors
 
@@ -72,4 +71,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
