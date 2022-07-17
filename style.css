@@ -514,11 +514,14 @@ h2 {
   }
 
   .nav-link {
-    list-style: none;
     color: #507dc9;
     cursor: pointer;
     margin-right: 32px;
     transition: all 0.5s ease-out;
+  }
+
+  .nav-link-item {
+    list-style: none;
   }
 
   .nav-link:hover,
