@@ -513,7 +513,7 @@ h2 {
     margin: 26px 154px 26px 0;
   }
 
-  .nav-link-item {
+  .nav-link {
     list-style: none;
     color: #507dc9;
     cursor: pointer;
@@ -521,8 +521,8 @@ h2 {
     transition: all 0.5s ease-out;
   }
 
-  .nav-link-item:hover,
-  .nav-link-item:focus {
+  .nav-link:hover,
+  .nav-link:focus {
     background-color: #5864d2;
     color: #fff !important;
   }
@@ -565,7 +565,7 @@ h2 {
 
   .nav-link {
     text-decoration: none;
-    color: #6070ff;
+    color: hsl(234, 100%, 69%);
   }
 
   .btn {
