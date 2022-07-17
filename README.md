@@ -24,30 +24,36 @@ I am a front-end remote web developer who combines the art of design with the ar
 
 ### Prerequisites
 
-To get a local copy up and running follow these simple example steps.
-
 - You need to have a Code Editor Installed.
 - Make sure Nodejs and NPM are installed in your system to setup linters
 
-### How to setup this project
+## Run Locally
 
-- Create a repo name **"Portfolio"** in your github account and add README.MD file
-- Create a new branch **"Desktop Version"** according to the GitHub flow rules.
-  - Remember to switch to the new branch :exclamation:
-- git clone your repo into your local repository
-- Add a .gitignore file.
-- Update the README.MD file in [this template](https://github.com/microverseinc/readme-template) and commit changes
-- Remember to _customise_ the template to your project :exclamation:
-- Setup Linters by running following commands in your terminal:
+Clone the project on your computer
+
+```
+  git clone https://link-to-project](https://github.com/teke85/portfolio_project-setup.git)
+```
+
+Go to the project directory
+
+```
+  cd portfolio_project-setup
+```
+Open the index file in a browser of your choice
+
+<details>
+<summary>To Install linters and check for errors</summary>
+<p> Setup Linters by running following commands in your terminal:
   - npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x (Install the StyleHint linters)
+  
   - npx stylelint "\*_/_.{css,scss}" (checks for the CSS related errors in your project)
   - npx stylelint "\*_/_.{css,scss}" --fix (This will fix the linters error, if any)
+  
   - npm install --save-dev hint@7.x (Install the WebHint Linters)
   - npx hint . (You should see Finishing... on your terminal)
-  - Commit the Linters changes to your github repo
-  - Add a contact section:
-  - Commit all changes.
-- Open a pull request.
+  - Commit the Linters changes to your github repo</p>
+</details>
 
 ## Authors
 
