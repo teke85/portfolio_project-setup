@@ -10,10 +10,6 @@
 - To use media queries in the CSS file to make the desktop version.
 - To use Grid and Flexbox to layout elements on the page.
 
-# Screen Shot of Complete Project
-
-![Portfolio (2)](https://user-images.githubusercontent.com/29442846/179360917-9bc053fc-8fcb-49cd-9038-091b00e12891.png)
-
 ## Built With
 
 - Languages Used: Html, CSS
@@ -30,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 - You need to have a Code Editor Installed.
 - Make sure Nodejs and NPM are installed in your system to setup linters
 
-### Setup
+### How to setup this project
 
 - Create a repo name **"Portfolio"** in your github account and add README.MD file
 - Create a new branch **"Desktop Version"** according to the GitHub flow rules.
