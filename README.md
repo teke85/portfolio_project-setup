@@ -34,7 +34,7 @@ Go to the project directory
 ```
   cd portfolio_project-setup
 ```
-Open the index file in a browser of your choice
+Open the **index file** in a browser of your choice
 
 <details>
 <summary>To Install linters and check for errors</summary>
