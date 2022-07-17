@@ -2,6 +2,9 @@
 
 # Welcome to Teke's Portfolio
 
+## About me ##
+I am a front-end remote web developer who combines the art of design with the art of programming by translating UI/UX design wireframes to code.
+
 # [Check Out My Portfolio Here](https://teke85.github.io/portfolio_project-setup/#portfolio)
 
 # Project Requirements
