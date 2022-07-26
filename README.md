@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## My Portfolio Project
+## My Mobile Menu (JavaScript Version) Project
 
 > **Portfolio - mobile menu Project!**
 
@@ -25,9 +25,10 @@
 
 Below is a screenshot of the complete project.
 
-![screencapture-127-0-0-1-5501-2022-07-05-21_05_48](https://user-images.githubusercontent.com/29442846/177398144-175679c8-d411-408b-8188-141049ecca12.png)
+![Portfolio (1)](https://user-images.githubusercontent.com/29442846/181095016-66b04ea4-2baf-4abc-9b55-c4393f6a7ba6.png)
 
 ## Prerequisites
+
 
 To get a local copy up and running follow these simple example steps.
 
