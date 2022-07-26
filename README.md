@@ -1,4 +1,4 @@
-# HTML & CSS3 & JavaScript Course
+# HTML, CSS3 & JavaScript Course
 
 If you are not familiar with linters, read [root level README](../README.md).
 
