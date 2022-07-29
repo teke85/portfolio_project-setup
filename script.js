@@ -105,15 +105,11 @@ const showInHtml = projects.map(
 );
 myContent.innerHTML = showInHtml;
 
-document.getElementsByClassName('.see-btn').onclick = function () {
-  viewProject(this.id);
-};
-
 /*Pop Up Menu*/
 const popup = document.getElementById('popup');
 
-const seeProjectButton = document.querySelectorAll('.see-btn');
-seeProjectButton.forEach((element) => {
+const seeButton = document.querySelectorAll('.see-btn');
+seeButton.forEach((element) => {
   element.addEventListener('click', () => {
     popup.style.display = 'block';
 
@@ -127,10 +123,10 @@ seeProjectButton.forEach((element) => {
       details += ' <i class="fas fa-circle divider"></i> ';
     });
 
-    document.getElementById('popup-project-info').innerHTML = info;
-    document.getElementById('popup-project-image-holder').innerHTML =
+    document.getElementById('project-info').innerHTML = info;
+    document.getElementById('project-image-holder').innerHTML =
       projectDetails.screenshot;
-    document.getElementById('popup-project-description').innerHTML =
+    document.getElementById('project-description').innerHTML =
       projectDetails.description;
 
     let popupProjectList = '';
