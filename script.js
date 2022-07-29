@@ -1,10 +1,8 @@
 const overlay = document.querySelector('.mobile-overlay');
-
 function mytoggleMenu() {
   overlay.classList.toggle('hide');
 }
 mytoggleMenu();
-
 const projects = [
   {
     id: 1,
@@ -15,7 +13,7 @@ const projects = [
       year: 2015,
     },
     screenshot: 'images/works/image_1.png',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release`,
+    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. `,
     skills: ['html', 'css', 'javascript'],
     liveLink: 'https://www.canopy.cr/tonic',
     sourceLink: 'https://www.canopy.cr/tonic',
@@ -63,12 +61,11 @@ const projects = [
     sourceLink: 'https://www.uber.com/',
   },
 ];
-
 const myContent = document.querySelector('.card-container');
-
-const showInHtml = projects.map(
-  (project) =>
-    `<div class="card-layout">
+const showInHtml = projects
+  .map(
+    (project, index) =>
+      `<div class="card-layout">
       <div class="image-container">
          <img
           class="image-fluid"
@@ -98,61 +95,103 @@ const showInHtml = projects.map(
           </li>
         </ul>
         <div class="btn-container">
-          <button type="button" class="see-btn">See Project</button>
+          <button type="button" id="${index}" class="see-btn">See Project</button>
         </div>
       </div>
     </div>`
-);
+  )
+  .join('');
 myContent.innerHTML = showInHtml;
-
+/*View Pop Up*/
+const myPopUp = document.querySelector('.popup');
+const popUpDetails = projects.map(
+  (project) =>
+    `<section class="popup">
+    <div class="popup-header">
+      <h2 class="popup-project-title" id="popup-project-title">${project.title}</h2>
+      <span id="cl" class="close">&times;</span>
+    </div>
+    <div class="popup-project-info" id="project-info"></div>
+    <div id="project-image-holder">
+      <img
+        src=${project.screenshot}
+        alt="Tonic project screenshot"
+        class="popup-project-image"
+        id="popup-project-image"
+      />
+    </div>
+    <div class="popup-project-details">
+      <div class="column-left">
+        <p class="popup-project-description" id="project-description">${project.description}</p>
+      </div>
+      <div class="column-right">
+        <div class="popup-project-stack" id="popup-project-stack"></div>
+        <div class="popup-project-buttons">
+          <button type="button" id="see-live-btn" onclick="">
+            See Live
+          </button>
+          <button type="button" id="see-source-btn" onclick="">
+            See Source
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>`
+);
 /*Pop Up Menu*/
 const popup = document.getElementById('popup');
-
 const seeButton = document.querySelectorAll('.see-btn');
-seeButton.forEach((element) => {
-  element.addEventListener('click', () => {
-    popup.style.display = 'block';
-
-    const projectDetails = projects(element.id);
-    document.getElementById('popup-project-title').innerHTML =
-      projectDetails.name;
-    let details = '';
-
-    Object.keys(projectDetails.info).forEach((key) => {
-      details += `<span class="client-name">${key}</span> `;
-      details += ' <i class="fas fa-circle divider"></i> ';
-    });
-
-    document.getElementById('project-info').innerHTML = info;
-    document.getElementById('project-image-holder').innerHTML =
-      projectDetails.screenshot;
-    document.getElementById('project-description').innerHTML =
-      projectDetails.description;
-
-    let popupProjectList = '';
-    Object.keys(projectDetails.skills).forEach((key) => {
-      popupProjectList += `<span class="label">${projectDetails.skills[key]}</span>`;
-    });
-
-    document.getElementById('popup-project-stack').innerHTML = popupProjectList;
-    document.getElementById('live-btn').addEventListener('click', () => {
-      window.location.href = projectDetails.liveLink;
-    });
-
-    document.getElementById('source-btn').addEventListener('click', () => {
-      window.location.href = projectDetails.sourceLink;
-    });
-  });
-});
-
+document.getElementById('0').onclick = f1;
+document.getElementById('1').onclick = f1;
+document.getElementById('2').onclick = f1;
+document.getElementById('3').onclick = f1;
+function f1() {
+  const x = parseInt(this.id);
+  popup.innerHTML = popUpDetails[x];
+  popup.style.display = 'block';
+  document.getElementById('cl').onclick = function () {
+    popup.innerHTML = '';
+    popup.style.display = 'none';
+  };
+}
+//seeButton.forEach((element) => {
+// element.addEventListener('click', (event) => {
+//   popup.style.display = 'block';
+//   const x = parseInt(this.id);
+//   console.log(this)
+//   popup.innerHTML=popUpDetails[2]
+//   const projectDetails = projects(element.id);
+//   document.getElementById('popup-project-title').innerHTML =
+//     projectDetails.name;
+//   let details = '';
+//   Object.keys(projectDetails.info).forEach((key) => {
+//     details += `<span class="client-name">${key}</span> `;
+//     details += ' <i class="fas fa-circle divider"></i> ';
+//   });
+//   document.getElementById('project-info').innerHTML = info;
+//   document.getElementById('project-image-holder').innerHTML =
+//     projectDetails.screenshot;
+//   document.getElementById('project-description').innerHTML =
+//     projectDetails.description;
+//   let popupProjectList = '';
+//   Object.keys(projectDetails.skills).forEach((key) => {
+//     popupProjectList += `<span class="label">${projectDetails.skills[key]}</span>`;
+//   });
+//   document.getElementById('popup-project-stack').innerHTML = popupProjectList;
+//   document.getElementById('live-btn').addEventListener('click', () => {
+//     window.location.href = projectDetails.liveLink;
+//   });
+//   document.getElementById('source-btn').addEventListener('click', () => {
+//     window.location.href = projectDetails.sourceLink;
+//   });
+// });
+//});
 // Get the <span> element that closes the modal
 const span = document.getElementsByClassName('close')[0];
-
 // When the user clicks on <span> (x), close the modal
 span.onclick = () => {
   popup.style.display = 'none';
 };
-
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = (event) => {
   if (event.target === popup) {
