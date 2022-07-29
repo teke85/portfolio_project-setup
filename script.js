@@ -67,40 +67,149 @@ const projects = [
 document.querySelector('.portfolio-card').innerHTML = projects
   .map(
     (project) =>
-      `<div class="project-container">
-      <div class="project-img-container">
-         <a href="#" aria-label="Tonic Project">
-            <img src="images/project/tonic-project.png" alt="tonic-project" class="project-img">
-         </a>
+      `<div class="card-layout">
+      <div class="image-container">
+        <img
+          class="image-fluid"
+          src=${project.screenshot}
+          alt="background_image"
+        />
       </div>
-      <div class="about-project flex">
-         <div class="project-title">
-            <h2>${project.title}</h2>
-         </div>
-         <div class="project-info">
-            <ul class="flex">
-               <li class="client-name">${project.info.client}</li>
-               <li class="counter"></li>
-               <li class="role">${project.info.role}</li>
-               <li class="counter"></li>
-               <li class="year">${project.info.year}</li>
-            </ul>
-         </div>
-         <div class="project-description">
-            <p>${project.description}</p>
-         </div>
-         <div class="tags">
-            <ul class="flex">
-               <li>${project.skills[0]}</li>
-               <li>${project.skills[1]}</li>
-               <li>${project.skills[2]}</li>
-            </ul>
-         </div>
-         <div class="btn-container">
-            <button type="submit" class="view-btn" data-bs-toggle="modal" data-bs-target="#projectModal" onclick="viewProject(${project.id})">See Project</button>
-         </div>
+
+      <div class="p-title">
+        <h3 class="title">${project.title}</h3>
+        <ul class="flex-items">
+          <li class="list-item canopy">CANOPY</li>
+          <li class="list-item role">Back End Dev</li>
+          <li class="list-item year">2015</li>
+        </ul>
+        <p class="text_paragraph">
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required.
+        </p>
+        <ul class="btn-container-flex">
+          <li class="btn">
+            <button class="btn-sm" type="button">html</button>
+          </li>
+          <li class="btn">
+            <button class="btn-md" type="button">css</button>
+          </li>
+          <li class="btn">
+            <button class="btn-lg" type="button">javaScript</button>
+          </li>
+        </ul>
+        <div class="btn-container">
+          <button type="button" class="btn-xxl">See Project</button>
+        </div>
       </div>
-   </div>`
+    </div>
+
+    <div class="card-layout">
+      <div class="p-title">
+        <h3 class="title">Tonic</h3>
+        <ul class="flex-items">
+          <li class="list-item canopy">CANOPY</li>
+          <li class="list-item role">Back End Dev</li>
+          <li class="list-item year">2015</li>
+        </ul>
+        <p class="text_paragraph">
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required.
+        </p>
+        <ul class="btn-container-flex">
+          <li class="btn">
+            <button class="btn-sm" type="button">html</button>
+          </li>
+          <li class="btn">
+            <button class="btn-md" type="button">css</button>
+          </li>
+          <li class="btn">
+            <button class="btn-lg" type="button">javaScript</button>
+          </li>
+        </ul>
+        <div class="btn-container">
+          <button type="button" class="btn-xxl">See Project</button>
+        </div>
+      </div>
+      <div class="image-container">
+        <img
+          class="image-fluid"
+          src="images/works/b.png"
+          alt="background_image"
+        />
+      </div>
+    </div>
+    <div class="card-layout">
+      <div class="image-container">
+        <img
+          class="image-fluid"
+          src="images/works/c.png"
+          alt="background_image"
+        />
+      </div>
+
+      <div class="p-title">
+        <h3 class="title">Tonic</h3>
+        <ul class="flex-items">
+          <li class="list-item canopy">CANOPY</li>
+          <li class="list-item role">Back End Dev</li>
+          <li class="list-item year">2015</li>
+        </ul>
+        <p class="text_paragraph">
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required.
+        </p>
+        <ul class="btn-container-flex">
+          <li class="btn">
+            <button class="btn-sm" type="button">html</button>
+          </li>
+          <li class="btn">
+            <button class="btn-md" type="button">css</button>
+          </li>
+          <li class="btn">
+            <button class="btn-lg" type="button">javaScript</button>
+          </li>
+        </ul>
+        <div class="btn-container">
+          <button type="button" class="btn-xxl">See Project</button>
+        </div>
+      </div>
+    </div>
+    <div class="card-layout">
+      <div class="p-title">
+        <h3 class="title">Tonic</h3>
+        <ul class="flex-items">
+          <li class="list-item canopy">CANOPY</li>
+          <li class="list-item role">Back End Dev</li>
+          <li class="list-item year">2015</li>
+        </ul>
+        <p class="text_paragraph">
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required.
+        </p>
+        <ul class="btn-container-flex">
+          <li class="btn">
+            <button class="btn-sm" type="button">html</button>
+          </li>
+          <li class="btn">
+            <button class="btn-md" type="button">css</button>
+          </li>
+          <li class="btn">
+            <button class="btn-lg" type="button">javaScript</button>
+          </li>
+        </ul>
+        <div class="btn-container">
+          <button type="button" class="btn-xxl">See Project</button>
+        </div>
+      </div>
+      <div class="image-container">
+        <img
+          class="image-fluid"
+          src="images/works/d.png"
+          alt="background_image"
+        />
+      </div>
+    </div>`
   )
   .join('');
 
