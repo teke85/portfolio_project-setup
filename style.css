@@ -218,6 +218,19 @@ h2 {
   transition: 0.2s;
 }
 
+.newBtn {
+  background-color: #fff;
+  width: 150px;
+  text-align: center;
+  height: 24px;
+  border-radius: 8px;
+  border: 1px solid #2230d2;
+  color: #b7bcff;
+  padding: 4px 12px 4px 12px;
+  transition: 0.2s;
+  margin-top: 10px;
+}
+
 .btn-md {
   background-color: #ebebff;
   width: 45px;

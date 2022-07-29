@@ -13,6 +13,7 @@ const projects = [
       year: 2015,
     },
     screenshot: 'images/works/image_1.png',
+    shortDescription: `A daily selection of privately personalized reads; no accounts or sign-ups required.`,
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. `,
     skills: ['html', 'css', 'javascript'],
     liveLink: 'https://www.canopy.cr/tonic',
@@ -27,6 +28,7 @@ const projects = [
       year: 2015,
     },
     screenshot: 'images/works/image_2.png',
+    shortDescription: `A daily selection of privately personalized reads; no accounts or sign-ups required.`,
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release`,
     skills: ['html', 'css', 'Ruby on rails', 'javascript'],
     liveLink: 'https://www.facebook.com/',
@@ -41,6 +43,7 @@ const projects = [
       year: 2015,
     },
     screenshot: 'images/works/image_3.png',
+    shortDescription: `A daily selection of privately personalized reads; no accounts or sign-ups required.`,
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release`,
     skills: ['html', 'css', 'Ruby on rails', 'javascript'],
     liveLink: 'https://www.facebook.com/',
@@ -55,6 +58,7 @@ const projects = [
       year: 2018,
     },
     screenshot: 'images/works/image_4.png',
+    shortDescription: `A daily selection of privately personalized reads; no accounts or sign-ups required.`,
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release`,
     skills: ['html', 'css', 'javascript', 'Ruby on rails'],
     liveLink: 'https://www.uber.com/',
@@ -81,7 +85,7 @@ const showInHtml = projects
           <li class="list-item year">${project.info.year}</li>
         </ul>
         <p class="text_paragraph">
-          ${project.description}
+          ${project.shortDescription}
         </p>
         <ul class="btn-container-flex">
           <li class="btn">
@@ -125,12 +129,25 @@ const popUpDetails = projects.map(
         <p class="popup-project-description" id="project-description">${project.description}</p>
       </div>
       <div class="column-right">
-        <div class="popup-project-stack" id="popup-project-stack"></div>
+        <div class="popup-project-stack" id="popup-project-stack">
+        <ul class="btn-container-flex">
+          <li class="btn">
+            <button class="btn-sm" type="button">${project.skills[0]}</button>
+          </li>
+          <li class="btn">
+            <button class="btn-md" type="button">${project.skills[1]}</button>
+          </li>
+          <li class="btn">
+            <button class="btn-lg" type="button">${project.skills[2]}</button>
+          </li>
+        </ul>
+        </div>
+        
         <div class="popup-project-buttons">
-          <button type="button" id="see-live-btn" onclick="">
+          <button type="button" id="see-live-bt" class="newBtn" onclick="">
             See Live
           </button>
-          <button type="button" id="see-source-btn" onclick="">
+          <button type="button" id="see-source-btn" class="newBtn" onclick="">
             See Source
           </button>
         </div>
