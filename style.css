@@ -5,7 +5,7 @@
   --bg-color-contact: #6070ff;
   --menu-icon-color: #6070ff;
   --h1-color: #172b4d;
-  --span-color: #7f8cff;
+  --span-color: #7f8cff;btn
   --paragraph-color: #344563;
   --font-family: 'Poppins', sans-serif;
   --li-color: #c1c7d0;
@@ -232,7 +232,7 @@ h2 {
 
 .btn-lg {
   background-color: #ebebff;
-  width: 70px;
+  width: 90px;
   text-align: center;
   height: 25px;
   border-radius: 5px;
