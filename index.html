@@ -368,11 +368,14 @@
           with it
         </p>
         <form
+          novalidate
+          action
           class="form"
           action="https://formspree.io/f/mlezyvyo"
           method="post"
         >
           <input
+            id="fullname"
             type="text"
             class="field"
             required
@@ -380,13 +383,16 @@
             placeholder="Yeremias"
           />
           <input
+            id="email"
             type="email"
             id="email"
             class="field"
             required
             placeholder="natajayanji@gmail.com"
           />
+          <span class="error" aria-live="polite"></span>
           <textarea
+            id="message"
             class="text-area"
             rows="5"
             maxlength="500"
@@ -396,7 +402,7 @@
             name="message"
             id="message"
           ></textarea>
-          <button class="btn-submit" type="submit">Get In Touch</button>
+          <button class="submit" type="submit">Get In Touch</button>
         </form>
       </div>
     </section>
