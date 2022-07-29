@@ -98,13 +98,68 @@ const showInHtml = projects.map(
           </li>
         </ul>
         <div class="btn-container">
-          <button type="button" class="btn-xxl">See Project</button>
+          <button type="button" class="see-btn">See Project</button>
         </div>
       </div>
     </div>`
 );
 myContent.innerHTML = showInHtml;
 
-document.getElementsByClassName('.view-btn').onclick = function () {
+document.getElementsByClassName('.see-btn').onclick = function () {
   viewProject(this.id);
+};
+
+/*Pop Up Menu*/
+const popup = document.getElementById('popup');
+
+const seeProjectButton = document.querySelectorAll('.see-btn');
+seeProjectButton.forEach((element) => {
+  element.addEventListener('click', () => {
+    popup.style.display = 'block';
+
+    const projectDetails = projects(element.id);
+    document.getElementById('popup-project-title').innerHTML =
+      projectDetails.name;
+    let details = '';
+
+    Object.keys(projectDetails.info).forEach((key) => {
+      details += `<span class="client-name">${key}</span> `;
+      details += ' <i class="fas fa-circle divider"></i> ';
+    });
+
+    document.getElementById('popup-project-info').innerHTML = info;
+    document.getElementById('popup-project-image-holder').innerHTML =
+      projectDetails.screenshot;
+    document.getElementById('popup-project-description').innerHTML =
+      projectDetails.description;
+
+    let popupProjectList = '';
+    Object.keys(projectDetails.skills).forEach((key) => {
+      popupProjectList += `<span class="label">${projectDetails.skills[key]}</span>`;
+    });
+
+    document.getElementById('popup-project-stack').innerHTML = popupProjectList;
+    document.getElementById('live-btn').addEventListener('click', () => {
+      window.location.href = projectDetails.liveLink;
+    });
+
+    document.getElementById('source-btn').addEventListener('click', () => {
+      window.location.href = projectDetails.sourceLink;
+    });
+  });
+});
+
+// Get the <span> element that closes the modal
+const span = document.getElementsByClassName('close')[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = () => {
+  popup.style.display = 'none';
+};
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = (event) => {
+  if (event.target === popup) {
+    popup.style.display = 'none';
+  }
 };

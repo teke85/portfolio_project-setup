@@ -104,6 +104,8 @@
 
     <!--About Section Starts Here-->
 
+    <!--Modal Starts Here-->
+
     <section id="about" class="about-section">
       <div class="about">
         <h1 class="about-myself-title">About Myself</h1>
@@ -256,6 +258,44 @@
         </form>
       </div>
     </section>
+
+    <!--Modal Starts Here-->
+    <div class="popup-window" id="popup">
+      <section class="popup">
+        <div class="popup-header">
+          <h2 class="popup-project-title" id="popup-project-title"></h2>
+          <span class="close">&times;</span>
+        </div>
+        <div class="popup-project-info" id="popup-project-info"></div>
+        <div id="popup-project-image-holder">
+          <img
+            src="#"
+            alt="Tonic project screenshot"
+            class="popup-project-image"
+            id="popup-project-image"
+          />
+        </div>
+        <div class="popup-project-details">
+          <div class="column-left">
+            <p
+              class="popup-project-description"
+              id="popup-project-description"
+            ></p>
+          </div>
+          <div class="column-right">
+            <div class="popup-project-stack" id="popup-project-stack"></div>
+            <div class="popup-project-buttons">
+              <button type="button" id="see-live-btn" onclick="">
+                See Live
+              </button>
+              <button type="button" id="see-source-btn" onclick="">
+                See Source
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
 
     <script
       type="module"
