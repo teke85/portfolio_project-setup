@@ -164,7 +164,7 @@ const popUpDetails = projects.map(
 const popup = document.getElementById('popup');
 
 function f1() {
-  const x = parseInt(this.id);
+  const x = Number(this.id);
   popup.innerHTML = popUpDetails[x];
   popup.style.display = 'block';
   document.getElementById('cl').onclick = function () {
