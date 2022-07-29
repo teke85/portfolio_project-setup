@@ -493,13 +493,6 @@ h2 {
   list-style: none;
 }
 
-.close {
-  position: absolute;
-  right: 38px;
-
-  /* display: none; */
-}
-
 .menu-icon {
   /* display: none; */
   position: absolute;
@@ -545,7 +538,7 @@ h2 {
   display: none;
 }
 
-/*Modal styling*/
+/* Modal styling */
 .popup {
   display: flex;
   flex-direction: column;
