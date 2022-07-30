@@ -57,7 +57,7 @@ email.addEventListener('change', () => {
 message.addEventListener('change', () => {
   store();
 });
-//remove this comment
+
 const populateForm = () => {
   const storage = localStorage.getItem('formInput');
   fullname.value = JSON.parse(storage).fullname;
