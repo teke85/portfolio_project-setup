@@ -233,13 +233,17 @@
           with it
         </p>
         <form
+          novalidate
+          id="form"
           class="form"
           action="https://formspree.io/f/mlezyvyo"
           method="post"
         >
           <input
+            name="fullname"
+            id="fullname"
             type="text"
-            class="field"
+            class="form_input"
             required
             maxlength="30"
             placeholder="Yeremias"
@@ -247,12 +251,13 @@
           <input
             type="email"
             id="email"
-            class="field"
+            class="form_input"
             required
             placeholder="natajayanji@gmail.com"
           />
+          <span class="error" aria-live="polite"></span>
           <textarea
-            class="text-area"
+            class="form_input"
             rows="5"
             maxlength="500"
             required
