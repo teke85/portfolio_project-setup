@@ -109,7 +109,7 @@ const showInHtml = projects
           <button type="button" id="${index}" class="see-btn">See Project</button>
         </div>
       </div>
-     </div>`
+     </div>`,
   )
   .join('');
 myContent.innerHTML = showInHtml;
@@ -158,7 +158,7 @@ const popUpDetails = projects.map(
         </div>
       </div>
     </div>
-   </section>`
+   </section>`,
 );
 /* Pop Up Menu */
 const popup = document.getElementById('popup');
@@ -215,10 +215,9 @@ form.addEventListener('submit', (event) => {
 
   if (!checkEmail(email)) {
     email.setCustomValidity(
-      'Please enter a valid email address and in lowercase letters.'
+      'Please enter a valid email address and in lowercase letters.',
     );
-    emailError.textContent =
-      'Please enter a valid email address and in lowercase letters.';
+    emailError.textContent = 'Please enter a valid email address and in lowercase letters.';
   } else {
     email.setCustomValidity('');
     emailError.textContent = '';
