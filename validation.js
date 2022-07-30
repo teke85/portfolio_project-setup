@@ -7,7 +7,6 @@ const isEmailValid = (email) => {
 };
 
 const checkEmail = (email) => {
-  
   let valid = true;
   if (!isEmailValid(email)) {
     valid = false;
@@ -22,13 +21,14 @@ form.addEventListener('submit', (event) => {
 
   if (!checkEmail(email)) {
     email.setCustomValidity(
-      'Please enter a valid email address and in lowercase letters.',
+      'Please enter a valid email address and in lowercase letters.'
     );
-    emailError.textContent = 'Please enter a valid email address and in lowercase letters.';
+    emailError.textContent =
+      'Please enter a valid email address and in lowercase letters.';
   } else {
     email.setCustomValidity('');
-    emailError.textContent = ''; 
-    emailError.className = 'error'; 
+    emailError.textContent = '';
+    emailError.className = 'error';
     form.submit();
   }
 });
@@ -57,7 +57,7 @@ email.addEventListener('change', () => {
 message.addEventListener('change', () => {
   store();
 });
-
+//remove this comment
 const populateForm = () => {
   const storage = localStorage.getItem('formInput');
   fullname.value = JSON.parse(storage).fullname;
