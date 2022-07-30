@@ -7,7 +7,7 @@ const isEmailValid = (email) => {
 };
 
 const checkEmail = (email) => {
-  // console.log(isEmailValid(email));
+  
   let valid = true;
   if (!isEmailValid(email)) {
     valid = false;
@@ -16,7 +16,6 @@ const checkEmail = (email) => {
 };
 
 form.addEventListener('submit', (event) => {
-  // prevent the form from submitting
   event.preventDefault();
 
   const { email } = form.elements;
@@ -28,8 +27,8 @@ form.addEventListener('submit', (event) => {
     emailError.textContent = 'Please enter a valid email address and in lowercase letters.';
   } else {
     email.setCustomValidity('');
-    emailError.textContent = ''; // Reset the content of the message
-    emailError.className = 'error'; // Reset the visual state of the message
+    emailError.textContent = ''; 
+    emailError.className = 'error'; 
     form.submit();
   }
 });
@@ -46,7 +45,7 @@ const store = () => {
   };
   localStorage.setItem('formInput', JSON.stringify(inputs));
 };
-// On change of email, update the storage
+
 fullname.addEventListener('change', () => {
   store();
 });
