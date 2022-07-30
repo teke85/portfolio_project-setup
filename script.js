@@ -109,7 +109,7 @@ const showInHtml = projects
           <button type="button" id="${index}" class="see-btn">See Project</button>
         </div>
       </div>
-    </div>`
+     </div>`
   )
   .join('');
 myContent.innerHTML = showInHtml;
@@ -158,7 +158,7 @@ const popUpDetails = projects.map(
         </div>
       </div>
     </div>
-  </section>`
+   </section>`
 );
 /* Pop Up Menu */
 const popup = document.getElementById('popup');
@@ -190,7 +190,7 @@ window.onclick = (event) => {
   }
 };
 
-//Form Validation
+// Form Validation
 
 const form = document.getElementById('form');
 const emailError = document.querySelector('span.error');
