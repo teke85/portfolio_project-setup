@@ -167,7 +167,7 @@ function f1() {
   const x = Number(this.id);
   popup.innerHTML = popUpDetails[x];
   popup.style.display = 'block';
-  document.getElementById('cl').onclick = function () {
+  document.getElementById('cl').onclick = function cl() {
     popup.innerHTML = '';
     popup.style.display = 'none';
   };
